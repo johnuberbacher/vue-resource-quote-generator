@@ -1,0 +1,74 @@
+div#app {
+  display: none;
+}
+div#app div.container {
+  background: #ffffff;
+  max-width: 450px;
+  margin: 30px auto;
+  text-align: center;
+}
+div#app div.container h1 {
+  font-size: 18px;
+  display: block;
+  margin: 0px auto 20px auto;
+  font-family: Verdana;
+}
+div#app div.container div.quote {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 120px;
+  position: relative;
+  box-shadow: 0px 3px 100px rgba(0, 0, 0, 0.15);
+  padding: 30px 50px;
+  border-radius: 8px;
+  font-size: 18px;
+  vertical-align: middle;
+  font-family: Verdana;
+  border: 5px solid #000;
+}
+div#app div.container div.quote:before {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: auto;
+  right: 45%;
+  top: auto;
+  bottom: -40px;
+  border: 20px solid;
+  border-color: #000 transparent transparent #000;
+}
+div#app div.container div.quote:after {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: auto;
+  right: 45%;
+  top: auto;
+  bottom: -28px;
+  border: 17px solid;
+  border-color: #ffffff transparent transparent #ffffff;
+}
+div#app div.container svg {
+  height: 150px;
+  max-width: 100px;
+  margin: 40px auto 15px auto;
+}
+div#app div.container div.button {
+  margin: 0px auto;
+  padding: 12px 20px;
+  cursor: pointer;
+  background: #0065a5;
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 14px;
+  max-width: 200px;
+  text-transform: uppercase;
+  font-family: Verdana;
+}
